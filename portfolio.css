@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.header{
+    
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.893);
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin:auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+
+}
+.logo{
+    background-size: cover;
+    height: 100px;
+
+}
+.logo:hover{
+   border: 2px solid orange;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+ nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+ }
+ nav ul li a:hover{
+    color:orange;
+ }
+ .detail{
+    margin-top: 15%;
+    margin-left: 8%;
+ }
+ .detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+ }
+ span{
+    color: orange;
+ }
+ .detail p{
+    color:#555;
+    line-height: 22px;
+ }
+ .detail a{
+    background: #212121;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #efff;
+    display: inline-block;
+    margin: 40px opx;
+    border-radius: 5px;
+ }
+ .image{
+   width: 30%;
+   height: 70%;
+   position:absolute;
+   bottom:0px;
+   right:200px;
+   background-size: cover;
+   
+   
+ }
+ .pic{
+   border-radius: 50%;
+   border: 2px solid orange;
+ }
+
+ h2{
+   text-align: center;
+ }
+h3{
+   margin: 5px;
+}
+
+.skill{
+   width: 500px;
+   margin-top: 200px;
+   padding: 20px;
+   margin-left: 200px;
+   color:black;
+   background:white;
+   list-style: none;
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.24);
+
+
+}
+.skill li{
+   margin: 15px;
+   padding: 8px;
+
+}
+.bar{
+   background:#353b48;
+   display: block;
+   height: 20px;
+   border: 1px solid orange;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0px 1px 3px  rgba(0, 0, 0, 0.12);
+   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover{
+   box-shadow:0px 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0, 0, 0, 0.22);
+;}
+.bar span{
+   height: 20px;
+   float: left;
+   background: linear-gradient(135deg,rgb(236, 138, 0)0%,rgb(252, 103, 103)100%)
+}
+.html{
+   width:90%;
+   animation:html 3s;
+}
+.css{
+   width:80%;
+   animation:css 3s;
+
+}
+.javascript{
+   width: 60%;
+   animation:javascript 3s;
+}
+.python{
+   width:75%;
+   animation: python 3s;
+
+}
+.c{
+   width:95%;
+   animation: c 3s;
+
+}
+@keyframes html {
+   0%{ width:0%;
+   }
+   100%{
+      width:90%;
+
+   }
+}
+@keyframes css {
+   0%{ width:0%;
+   }
+   100%{
+      width:90%;
+
+   }
+}
+@keyframes javascript {
+   0%{ width:0%;
+   }
+   100%{
+      width:90%;
+
+   }
+}
+@keyframes python {
+   0%{ width:0%;
+   }
+   100%{
+      width:90%;
+
+   }
+}
+@keyframes c {
+   0%{ width:0%;
+   }
+   100%{
+      width:90%;
+
+   }
+}
+.skill1{
+   width: 100%px;
+   height:400px;
+   background: white;
+   margin-left: 600px;
+   margin-top: 20px;
+   font-size: 30px;
+   line-height: 20px;
+   display:  inline-block;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+  .skill1 h4{
+   margin-top: 30px;
+  }
+ .skill1 ul li 
+ {
+margin-top: 20px;
+margin-left: 20px;
+ }
+ .pro{
+   height: 50px;
+   width:100%;
+   text-align: center;
+   justify-content: center;
+
+ }
+ .project{
+   display: flex;
+   height:380px;
+   width: 100%;
+   justify-content: space-evenly;
+ }
+ .box{
+    
+   height: 350px;
+   width: 23%;
+   background-color: white;
+   padding: 20px 0px 15px;
+   margin-top: 15px;
+}
+.boximage1{
+   background-image: url("portcol1.jpg");
+   height: 300px;
+   background-size: cover;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.boximage2{
+   background-image: url("portcol2.jpg");
+   height: 300px;
+   background-size: cover;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.boximage3{
+   background-image: url("portcol3.jpg");
+   height: 300px;
+   background-size: cover;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.copyright{
+   height:50px;
+   background-color: rgb(244, 106, 8);
+   text-align: center;
+   
+   color: white;
+   margin-top: 20px;
+}
+.copyright p{
+   text-align: center;
+   justify-content: center;
+   margin-top: 10px;
+}
